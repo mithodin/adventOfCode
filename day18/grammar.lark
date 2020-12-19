@@ -1,0 +1,9 @@
+?expr: numbr
+     | expr "+" numbr         -> add
+     | expr "*" numbr         -> mul
+?numbr: NUMBER                -> number
+     | "(" expr ")"
+
+%import common.NUMBER
+%import common.WS
+%ignore WS

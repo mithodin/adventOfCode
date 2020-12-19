@@ -1,0 +1,10 @@
+?expr: sum
+    | expr "*" sum            -> mul
+?sum: numbr
+    | sum "+" sum         -> add
+?numbr: NUMBER                -> number
+    | "(" expr ")"
+
+%import common.NUMBER
+%import common.WS
+%ignore WS

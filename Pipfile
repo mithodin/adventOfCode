@@ -7,6 +7,7 @@ name = "pypi"
 pytest = "*"
 networkx = "*"
 numpy = "*"
+lark-parser = "*"
 
 [dev-packages]
 
