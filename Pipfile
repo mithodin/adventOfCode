@@ -6,8 +6,9 @@ name = "pypi"
 [packages]
 pytest = "*"
 networkx = "*"
-numpy = "*"
+numpy = "==1.19.3"
 lark-parser = "*"
+ipython = "*"
 
 [dev-packages]
 
