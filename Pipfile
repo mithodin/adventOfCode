@@ -9,6 +9,7 @@ networkx = "*"
 numpy = "==1.19.3"
 lark-parser = "*"
 ipython = "*"
+mod = "*"
 
 [dev-packages]
 
