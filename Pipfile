@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pytest = "*"
 networkx = "*"
-numpy = "==1.19.3"
+numpy = "*"
 lark-parser = "*"
 ipython = "*"
 mod = "*"
@@ -14,4 +14,4 @@ mod = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.10"
